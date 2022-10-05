@@ -1,0 +1,498 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+}
+
+.logo a {
+  font-size: 20px;
+  color: #000000;
+  font-weight: bolder;
+}
+
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+header ul a {
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.home::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #000000;
+  position: absolute;
+  bottom: -12px;
+  left: 36px;
+  border-radius: 5px;
+}
+.switch {
+  width: 34px;
+  height: 20px;
+  background-image: url(../imgs/switch.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.order-button {
+  width: 180px;
+  height: 60px;
+  background-color: #FDC72D;
+  color: #000000;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.order-button p {
+  text-align: center;
+  margin-top: 18px;
+  font-weight: bolder;
+}
+
+.order-button p::after {
+  content: "!";
+}
+
+.order-button:hover {
+  opacity: 0.6;
+  box-shadow: 1px 1px 8px #000000;
+}
+
+article{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagedec {
+  width: 466px;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+article h2 {
+  font-size: 60px;
+  height: 170px;
+}
+
+article .imagedec p {
+  font-size: 20px;
+  color: #777776;
+  width: 410px;
+  padding-top: 30px;
+}
+
+.image {
+  width: 800px;
+  height: 722px;
+  background-image: url(../imgs/Img.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+.button {
+  width: 180px;
+  height: 60px;
+  background-color: #FDC72D;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: -240px;
+  margin-left: 86px;
+  transition: 0.6s;
+}
+
+.button:hover{
+  opacity: 0.6;
+  box-shadow: 1px 1px 8px #000000;
+}
+
+.button p {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 14px;
+  cursor: pointer;
+  display: block;
+  width: 180px;
+  height: 60px;
+  color: #000000;
+}
+
+/* --------------------- Second Page Styles ---------- */
+
+
+.home1::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #000000;
+  position: absolute;
+  bottom: -12px;
+  left: 134px;
+  border-radius: 5px;
+}
+
+.second {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+
+.imagesecond {
+  width: 676px;
+  height: 506px;
+  background-image: url(../imgs/Img2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  margin-left: 50px;
+}
+
+.imagedecsecond {
+  width: 512px;
+  height: 272px;
+  text-align:justify;
+  margin-right: 50px;
+}
+
+
+
+.second h2 , .secondheaddec {
+  font-size: 40px;
+  width: 462px;
+  height: 136px;
+  padding: 5px;
+}
+
+.descriptionsecond  {
+  font-size: 20px;
+  width: 512px;
+  height: 104px;
+  color: #777776;
+  padding-right: 30px;
+}
+
+.secondarticle {
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imagesecond1 {
+  width: 724px;
+  height: 490px;
+  background-image: url(../imgs/Img3.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.secondimagedec {
+  margin-left: 50px;
+}
+
+.seconddescription {
+  font-size: 20px;
+  color: #777776;
+  width: 502px;
+  text-align: justify;
+}
+
+
+/* ------------ Third Page ----------- */
+
+.home3::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #000000;
+  position: absolute;
+  bottom: -12px;
+  left: 242px;
+  border-radius: 5px;
+}
+
+.offer {
+  font-size: 40px;
+  display: block;
+  font-weight: bolder;
+  width: 380px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.maindiv{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.threebar {
+  width: 380px;
+  height: 380px;
+  border-width: 1px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 14px #afafaf;
+  margin-bottom: 200px;
+}
+
+.threebar p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin: 30px;
+}
+
+.surati .surati2 .surati3 .divphoto {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.surati {
+  width: 202px;
+  height: 122px;
+  background-image: url(../imgs/barimg.png);
+  margin: 30px auto;
+
+}
+
+.surati2 {
+  width: 146px;
+  height: 146px;
+  background-image: url(../imgs/barimg2.png);
+  margin: -14px auto;
+}
+
+.surati3 {
+  width: 152px;
+  height: 142px;
+  background-image: url(../imgs/barimg3.png);
+  margin: -10px auto;
+}
+
+.agwera p {
+  font-size: 15px;
+  color: #777776;
+  text-align: center;
+  width: 234px;
+  margin: 30px auto;
+}
+
+.learnmore a {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  transition: 0.6s;
+}
+
+.learnmore a:hover {
+  font-size: 22px;
+}
+
+.divsecond {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.divphoto {
+  width: 542px;
+  height: 498px;
+  background-image: url(../imgs/img4.png);
+
+}
+
+.divsatauri {
+  width: 438px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.divagwera {
+  width: 510px;
+  font-size: 20px;
+  color: #777776;
+  flex-wrap: wrap;
+  margin: 40px 40px 0px 0px;
+}
+
+.twobuttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 700px;
+  margin-top: -270px;
+  margin-bottom: 300px;
+}
+
+.buttonone , .buttontwo {
+  width: 204px;
+  height: 62px;
+  background-color: #FDC72D;
+  border-radius: 30px;
+  margin-left: 30px;
+  transition: 0.6s;
+}
+
+.buttonone:hover , .buttontwo:hover {
+  opacity: 0.7;
+  box-shadow: 1px 1px 16px #FDC72D;
+}
+
+.twobuttons a {
+  display: block;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 16px;
+  width: 204px;
+  height: 62px;
+}
+
+.fa-apple {
+  font-size: 26px;
+  margin-right: 6px;
+  transition: 0.6s;
+}
+
+.fa-google-play {
+  margin-right: 6px;
+  transition: 0.6s;
+}
+
+
+/* ----------- Forth Page ------------ */
+
+
+.home4::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #000000;
+  position: absolute;
+  bottom: -12px;
+  left: 360px;
+  border-radius: 5px;
+}
+
+.forthdec {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+.headerp {
+  font-size: 40px;
+  font-weight: bold;
+  width: 352px;
+  margin-bottom: 66px;
+}
+
+.secondp {
+  font-size: 20px;
+  color: #777776;
+  width: 506px;
+}
+
+.contact p {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 30px;
+}
+
+.number , .mail , .adress {
+  color: #777776;
+}
+
+.contact-button {
+  width: 180px;
+  height: 60px;
+  background-color: #FDC72D;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.contact-button a {
+  text-align: center;
+  margin-top: 18px;
+  font-weight: bolder;
+  display: block;
+  color: #000000;
+}
+
+.contact-button:hover {
+  opacity: 0.6;
+  box-shadow: 1px 1px 8px #000000;
+}
+
+.footer {
+  width: 100%;
+  height: 450px;
+  background-color: #FEE395;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items:flex-start;
+}
+
+.sataurebi {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 22px;
+  margin-top: 92px;
+}
+
+.footer p {
+  font-size: 15px;
+  color: #777776;
+  cursor: pointer;
+  padding-top: 8px;
+  font-weight: bold;
+}
+
+.icons {
+  width: 16%;
+}
+
+.vec{
+  font-size: 26px;
+  margin-top: 84px;
+  cursor: pointer;
+}
+
+.rights {
+  margin-top: 50px;
+}
